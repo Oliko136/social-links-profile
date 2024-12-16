@@ -1,3 +1,39 @@
+:root {
+    --gray-900: #141414;
+    --gray-800: #1F1F1F;
+    --gray-700: #333333;
+    --green: #C4F82A;
+    --white: #FFFFFF;
+    --font-family: 'Inter', sans-serif;
+    --line-height: 1.3125rem;
+    --font-size-1: 1.5rem;
+    --font-size-2: 0.875rem;
+    --spacing-50: 0.25rem;
+    --spacing-100: 0.5rem;
+    --spacing-150: 0.75rem;
+    --spacing-200: 1rem;
+    --spacing-300: 1.5rem;
+    --spacing-500: 2.5rem;
+}
+
+@font-face {
+    font-family: var(--font-family);
+    src: url(../assets/fonts/static/Inter-Regular.ttf) format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: var(--font-family);
+    src: url(../assets/fonts/static/Inter-SemiBold.ttf) format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: var(--font-family);
+    src: url(../assets/fonts/static/Inter-Bold.ttf) format('truetype');
+    font-weight: 700;
+}
+
 html {
     box-sizing: border-box;
 }
@@ -31,4 +67,9 @@ a {
 
 img {
     display: block;
+}
+
+body {
+    font-family: var(--font-family);
+    margin: 0;
 }
